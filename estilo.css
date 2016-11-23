@@ -1,0 +1,167 @@
+.navbar{
+	background-color: #00796b;
+	height: 90px;
+	padding-top:15px;
+}
+/*marca*/
+.navbar-default .navbar-brand{
+    color: white;
+    font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-left: 50px;
+    color: white;
+    padding-top: 20px;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: white;
+    font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-left: 50px;
+    color: #f57c0d;
+}
+.navbar-default{
+	border-color: transparent;
+}
+@media (min-width: 768px;){
+	.navbar-brand .navbar-brand:hover{
+		font-size: 12px;
+		position: relative;
+	}
+}
+/*menu*/
+.navbar-fixed-top{
+	z-index: 1000;
+}
+.navbar-default .navbar-nav>li>a {
+	text-align: right;
+	color: white;
+	margin: 3px;
+    font-family: sans-serif;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #00796b;
+    position: relative;
+    display: block;
+    padding-right: 12px;
+    padding-top: 25px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #00796b;
+    font-family: sans-serif;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #b2dfdb;
+    position: relative;
+    display: block;
+    padding-right: 20px;
+}
+.navbar-default .navbar-nav .active a{
+	color: #1e3846;
+	background-color: #ffc551;
+}
+
+.navbar-default .navbar-nav .active a:focus {
+	outline: none;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+	color: #1e3846;
+	background-color: #ffc551;
+}
+/*toggle*/
+.navbar-toggle{
+	position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: transparent;
+    border-radius: 4px;
+    padding-top: 12px;
+}
+/*header*/
+header.container{
+	background-image: url("imagen/maxresdefault.png");
+	background-position: center;
+	height: 680px;
+	text-align: center;
+	width: 100%;
+	background-repeat: no-repeat;
+
+}
+header:hover{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    -webkit-animation: immortalkenburns 20000ms linear 0s infinite alternate;
+    animation: immortalkenburns 20000ms linear 0s infinite alternate;
+
+}
+
+
+.intro-leal-in{
+	padding-top: 250px;
+	margin-left: 120px;
+	text-align: left;
+	font-size: 20px;
+	font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    color: #DE7536;
+}
+.intro-heading{
+	text-align: left;
+	font-size: 15px;
+	margin-left: 120px;
+
+}
+
+
+
+/*medias*/
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        background-position: center;
+        width: 100%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    
+}
+
+@media print {
+    .container{
+        background-color: white;
+    }
+}
+
+@media (orientation: portrait) {
+    .container{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
