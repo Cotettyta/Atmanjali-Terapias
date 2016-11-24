@@ -131,7 +131,7 @@ header:hover{
         width: 100%;
     }
     header.container{
-        background-position: right center;
+        background-position-x: right;
         margin-top: 18px;
         width: 100%;
 
@@ -154,7 +154,7 @@ header:hover{
         width: 100%;
     }
     header.container{
-        background-position: right center;
+        background-position-x: right ;
         margin-top: 18px;
 
     }
@@ -166,7 +166,13 @@ header:hover{
     animation: immortalkenburns 20000ms linear 0s infinite alternate;
     }
 }
-
+@media screen and (min-width: 300px){
+    header.container{
+        background-position-x: right;
+        margin-left: 12px;
+        width: 100%; 
+    }
+}
 @media screen and (orientation: landscape) {
     
 }
