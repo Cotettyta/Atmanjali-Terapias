@@ -9,7 +9,7 @@
     font-family: 'kaushan Script';
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 50px;
     color: white;
     padding-top: 20px;
@@ -20,7 +20,7 @@
     font-family: 'kaushan Script';
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 50px;
     color: #f57c0d;
 }
@@ -28,10 +28,7 @@
 	border-color: transparent;
 }
 @media (min-width: 768px;){
-	.navbar-brand .navbar-brand:hover{
-		font-size: 12px;
-		position: relative;
-	}
+	
 }
 /*menu*/
 .navbar-fixed-top{
@@ -127,6 +124,10 @@ header:hover{
 
 /*medias*/
 @media screen and (max-width: 600px) {
+    .navbar-brand .navbar-brand:hover{
+        font-size: 18px;
+        position: relative;
+    }
     .container{
         width: 100%;
     }
@@ -149,6 +150,10 @@ header:hover{
 }
 
 @media screen and (max-width: 480px) {
+    .navbar-brand .navbar-brand:hover{
+        font-size: 15px;
+        position: relative;
+    }
     .container{
         background-position: center;
         width: 100%;
@@ -167,6 +172,10 @@ header:hover{
     }
 }
 @media screen and (min-width: 300px){
+    .navbar-brand .navbar-brand:hover{
+        font-size: 12px;
+        position: relative;
+    }
     header.container{
         background-position-x: right;
         width: 100%; 
