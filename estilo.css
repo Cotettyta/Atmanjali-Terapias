@@ -9,7 +9,7 @@
     font-family: 'kaushan Script';
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 50px;
     color: white;
     padding-top: 20px;
@@ -20,7 +20,7 @@
     font-family: 'kaushan Script';
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 50px;
     color: #f57c0d;
 }
@@ -154,7 +154,7 @@ header:hover{
         width: 100%;
     }
     header.container{
-        background-position-x: right ;
+        background-position-x: -1075px ;
         margin-top: 18px;
 
     }
@@ -169,7 +169,6 @@ header:hover{
 @media screen and (min-width: 300px){
     header.container{
         background-position-x: right;
-        margin-left: 12px;
         width: 100%; 
     }
 }
