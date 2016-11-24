@@ -90,7 +90,7 @@
 /*header*/
 header.container{
 	background-image: url("imagen/maxresdefault.png");
-	background-position: center;
+	background-position: center center;
 	height: 680px;
 	text-align: center;
 	width: 100%;
@@ -131,9 +131,9 @@ header:hover{
         width: 100%;
     }
     header.container{
-        background-position:-1023px;
+        background-position: right center;
         margin-top: 18px;
-        background-clip: pointer;
+        width: 100%;
 
     }
     header.container:hover{
