@@ -103,17 +103,17 @@ header.container-fluid:hover{
 }
 
 
-.intro-leal-in{
-	padding-top: 250px;
-	margin-left: 75px;
-	text-align: left;
-	font-size: 35px;
-	font-family: 'kaushan Script';
+.intro-heading{
+    padding-top: 250px;
+    margin-left: 75px;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'kaushan Script';
     font-weight: 400;
     font-style: normal;
     color: #f57c00;
 }
-.intro-heading{
+.intro-leal-in{
 	text-align: left;
 	font-size: 25px;
 	margin-left: 120px;
@@ -173,7 +173,7 @@ h3{
     .intro-heading{
         font-size: 25px;
         text-align: center;
-        margin-left: -40px;
+        margin-left: -8px;
     }
     .intro-leal-in{
         font-size: 15px;
