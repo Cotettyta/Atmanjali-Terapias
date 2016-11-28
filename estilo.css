@@ -2,6 +2,7 @@
 	background-color: #00796b;
 	height: 90px;
 	padding-top:15px;
+    margin-bottom: 0;
 }
 /*marca*/
 .navbar-default .navbar-brand{
@@ -27,9 +28,7 @@
 .navbar-default{
 	border-color: transparent;
 }
-@media (min-width: 768px;){
-	
-}
+
 /*menu*/
 .navbar-fixed-top{
 	z-index: 1000;
@@ -58,8 +57,8 @@
     padding-right: 20px;
 }
 .navbar-default .navbar-nav .active a{
-	color: #1e3846;
-	background-color: #ffc551;
+	color: #00796b;
+	background-color: #b2dfdb;
 }
 
 .navbar-default .navbar-nav .active a:focus {
@@ -67,7 +66,7 @@
 }
 
 .navbar-default .navbar-nav .active a:hover {
-	color: #1e3846;
+	color: #00796b;
 	background-color: #ffc551;
 }
 /*toggle*/
@@ -85,7 +84,7 @@
     padding-top: 12px;
 }
 /*header*/
-header.container{
+header.container-fluid{
 	background-image: url("imagen/maxresdefault.png");
 	background-position: center center;
 	height: 680px;
@@ -94,7 +93,7 @@ header.container{
 	background-repeat: no-repeat;
 
 }
-header:hover{
+header.container-fluid:hover{
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     -webkit-animation: immortalkenburns 20000ms linear 0s infinite alternate;
@@ -111,7 +110,7 @@ header:hover{
 	font-family: 'kaushan Script';
     font-weight: 400;
     font-style: normal;
-    color: #DE7536;
+    color: #f57c00;
 }
 .intro-heading{
 	text-align: left;
@@ -119,67 +118,108 @@ header:hover{
 	margin-left: 120px;
 
 }
+/* QUIENES SOMOS */
 
+.Quines-somos{
+    width: 100%;
+    height: 750px;
+}
+.text-intro{
+    margin-right: auto;
+    margin-left: auto; 
+    text-align: center;
+}
+h1{
+    font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #f57c00;
+    padding-top: 15px;
 
+}
 
-/*medias*/
-@media screen and (max-width: 600px) {
-    .navbar-brand .navbar-brand:hover{
-        font-size: 18px;
-        position: relative;
+h3{
+    font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 720px) {
+    .navbar-brand{
+        font-size: 25px;
+        text-align: left;
     }
     .container{
         width: 100%;
     }
-    header.container{
-        background-position-x: right;
-        margin-top: 18px;
+    header.container-fluid{
         width: 100%;
+        background-position: right ;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
 
     }
-    header.container:hover{
-    color: white;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    -webkit-animation: immortalkenburns 20000ms linear 0s infinite alternate;
-    animation: immortalkenburns 20000ms linear 0s infinite alternate;
-    cursor: pointer;
+    header.container-fluid:hover{
+        color: white;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        -webkit-animation: immortalkenburns 20000ms linear 0s infinite alternate;
+        animation: immortalkenburns 20000ms linear 0s infinite alternate;
+        cursor: pointer;
+    }
+    .intro-heading{
+        font-size: 25px;
+        text-align: center;
+        margin-left: -40px;
+    }
+    .intro-leal-in{
+        font-size: 15px;
+        margin-left: 60px;
+
     }
 
     
 }
 
 @media screen and (max-width: 480px) {
-    .navbar-brand .navbar-brand:hover{
-        font-size: 15px;
-        position: relative;
+    .navbar-brand {
+        font-size:20px;
     }
     .container{
-        background-position: center;
+        position: center;
         width: 100%;
     }
-    header.container{
-        background-position-x: -1075px ;
-        margin-top: 18px;
+    header.container-fluid{
+        background-position: right;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    header.container-fluid:hover{
+        color: white;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        -webkit-animation: immortalkenburns 20000ms linear 0s infinite alternate;
+        animation: immortalkenburns 20000ms linear 0s infinite alternate;
+        cursor: pointer;
+    }
 
-    }
-    header.container:hover{
-    color: white;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    -webkit-animation: immortalkenburns 20000ms linear 0s infinite alternate;
-    animation: immortalkenburns 20000ms linear 0s infinite alternate;
-    }
 }
-@media screen and (min-width: 300px){
-    .navbar-brand .navbar-brand:hover{
-        font-size: 12px;
-        position: relative;
+@media screen and (max-width: 300px){
+    .navbar-brand {
+        font-size: 8px;
+        position: center;
+        background-repeat: no-repeat;
+        cursor: pointer;
     }
-    header.container{
-        background-position-x: right;
+    header.container-fluid{
         width: 100%; 
+        background-position: right;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
+
 }
 @media screen and (orientation: landscape) {
     
@@ -194,14 +234,3 @@ header:hover{
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
