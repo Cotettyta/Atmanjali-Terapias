@@ -65,7 +65,7 @@ nav.navbar-fixed-top{
 .navbar-default .navbar-nav .active a{
 	color: #f57c0d;
 	border-radius: 10px;
-	background-color: #009688;
+	background-color: white;
 }
 /* para activar por si no resulta el active 
 .navbar-default .navbar-nav .active a:focus {
@@ -102,7 +102,7 @@ header.container{
     margin-bottom:0;
     background-attachment: fixed;
 	width: 100%;
-	height: 750px;
+	height: 800px;
 	background-image: url("imagen/maxresdefault.png");
 
 }
@@ -130,8 +130,31 @@ header:hover{
 .intro-leal{
 	text-align: left;
 	font-size: 20px;
-	margin-left: 220px;
+	margin-left: 200px;
 	color: #626363;
 }
 
+/* --- QUIENES SOMOS --- */
+
+h1.section-heading{
+	font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+	color: #333;
+	padding-top: 50px;
+	text-align: center; 
+
+}
+
+h3.section-text{
+	font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: darkgrey;
+    text-align: center; 
+}
+
+section#quienes-somos{}
 
