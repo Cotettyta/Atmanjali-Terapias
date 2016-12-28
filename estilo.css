@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 div {
             transform: ...  /* Navegador con especificación oficial */
     -webkit-transform: ...  /* Chrome, Safari, Opera... (Motor WebKit) */
@@ -11,7 +12,9 @@ div {
 }
 
 /* contenedor de color del menu */
-
+.container-menu{
+	background-color: #00796b;
+}
 .navbar{
 	height: 80px;
 	width: 100%;
@@ -146,6 +149,16 @@ h1.section-heading{
 	text-align: center; 
 
 }
+h1.section-heading-a{
+	font-family: 'kaushan Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+	color: white;
+	padding-top: 65px;
+	text-align: center; 
+
+}
 h3.section-text{
 	font-family: 'kaushan Script';
     font-weight: 400;
@@ -192,6 +205,12 @@ p.text{
 	font-size: 3px;
 }
 
+hr{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+	border-top: 1px solid #9e9e9e; 
+}
 
 .row-table [class*="col-"] {
     display: table-cell;
@@ -206,7 +225,7 @@ p.text{
 /* --- MASAJES --- */
 
 #masajes{
-	height: 1250px;
+	height: 1100px;
 	width: 100%;
 	background-color: #009688;
 
@@ -217,19 +236,13 @@ p.text{
 }
 
 h4.nombre-masaje{
-	font-size: 15px;
+	font-size: 25px;
 	font-family: 'kaushan Script';
 	font-weight: 400;
-	padding-top: 150px;
+	padding-top: 190px;
+	color: #079c8e;
 }
-h4.nombre:hover{
-	font-size: 15px;
-	font-family: 'kaushan Script';
-	font-weight: 400;
-	color: white;
-	padding-top: 150px;
 
-}
 
  h2.nombre-masaje{
 	font-size: 15px;
@@ -237,7 +250,10 @@ h4.nombre:hover{
 	font-weight: 400;
 	padding-top: 150px;
 }
-
+.col-lg-4, .col-md-6 .col-sm-6 .col-xs-12 .sin-paddings {
+    padding: 5px 5px;
+    background-position: center;
+}
 .imagenes-masajes{
 	margin-left: 60px;
 	font-family: 'kaushan Script';
@@ -249,14 +265,20 @@ h4.nombre:hover{
 	padding: 5px;
 }
 
+.col-lg-4, .col-md-6 .col-sm-6 .col-xs-12 .sin-paddings{
+	
+	padding: -20px;
+	background-position: center;
+}
+
 /* imagenes masajes zoom */
 .zoom-container {
   position: relative;
   overflow: hidden;
   display: inline-block;
-  font-size: 16px;
   font-size: 1rem;
   vertical-align: top;
+  color: white;
   }
 
 .zoom-container img {
@@ -297,7 +319,7 @@ h4.nombre:hover{
 
 .zoom-container .zoom-caption:hover h3 {
   text-align: center;
-  font-size: 4.8em;
+  font-size: 20px;   
   font-weight: 900;
   color: #fff;
   margin: 25% 0 0;
@@ -309,7 +331,7 @@ h4.nombre:hover{
   background-color: transparent;
   color: #FFF;
   padding: 5px;
-  font-size: 2.5em;
+  font-size: 12px;
   display: block;
   border-radius: 5px;
   text-align: center;
@@ -343,6 +365,117 @@ h4.nombre:hover{
     padding-left: 5px; 
 }
 
+/* --- INFORMACION DEL MENSAJE --- */
+h2.informacion-masaje{
+	font-size: 25px;
+	font-family: 'kaushan Script';
+	font-weight: 400;
+	padding-top: 0;
+	text-align: center;
+}
+.subtitulo-masaje{
+	font-size: 15px;
+	font-family: 'kaushan Script';
+	font-weight: 400;
+	color: white;
+	text-align: center;
+}
+p.titulo-masaje{
+	font-family: 'kaushan Script';
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	text-align: center;
+}
+p.info{
+	text-align: justify;
+}
+.btn .btn-success{
+	background-color:#009688;
+}
+.modal-content {
+    position: relative;
+    background-color: #80cbc4;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    height:850px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #09826c;
+    border-color: #09826c;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0;
+}
+
+/* --- Chakras ---*/
+
+.parallax-container{
+	background-image: url("imagen/chakras.jpg");
+	background-repeat:repeat;
+	background-attachment: fixed;
+	min-height:250px;
+	background-position: center;
+}
+
+p.text{
+	text-align: justify;
+}
+
+/* --- Terapias --- */
+.row-terapias{
+	padding-top: 50px;
+}
+.bg-light-gray {
+    background-color: #eee;
+    height: 100%;
+    width: 100%;
+}
+.terapias-imagen{
+	width: 100%;
+}
+.terapias-caption{
+	width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+.thumbnail {
+    display: block;
+    padding: 12px;
+    margin-bottom: 20px;
+    /* line-height: 35.428571; */
+    background-color: #fff;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    /* -webkit-transition: border .2s ease-in-out; */
+    -o-transition: border .2s ease-in-out;
+    /* transition: border .2s ease-in-out; */
+}
+.thumbnail .caption {
+    padding: 9px;
+    color: #1f1f1f;
+}
+/* --- CONTACTO ---*/
+
+
+.bg-light-img{
+	width: 100%;
+	height: 100%;
+	background-image: url("imagen/vel-armonia.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 
 
 
@@ -362,16 +495,23 @@ h4.nombre:hover{
 
 
 
+@media (max-width: 768px){
+	div.container div.container-fluid {
+	 	width: 100%;
+	 	height: 100%;
+	}
+}
+@media screen and (max-width: 480px) {
+	div.container div.container-fluid {
+	 	width: 100%;
+	}
+}
 
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 360px) {
+	div.container div.container-fluid {
+	 	width: 100%;
+	}
+}
 
 
 
