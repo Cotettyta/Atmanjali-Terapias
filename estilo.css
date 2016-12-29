@@ -12,9 +12,7 @@ div {
 }
 
 /* contenedor de color del menu */
-.container-menu{
-	background-color: #00796b;
-}
+
 .navbar{
 	height: 80px;
 	width: 100%;
@@ -419,11 +417,12 @@ p.info{
 /* --- Chakras ---*/
 
 .parallax-container{
-	background-image: url("imagen/chakras.jpg");
-	background-repeat:repeat;
+	background-image: url("imagen/vel-armonia.jpg");
+	background-repeat:no-repeat;
 	background-attachment: fixed;
 	min-height:250px;
 	background-position: center;
+	background-size: cover;
 }
 
 p.text{
@@ -470,26 +469,82 @@ p.text{
 
 .bg-light-img{
 	width: 100%;
-	height: 100%;
-	background-image: url("imagen/vel-armonia.jpg");
+	height: 680px;
+	background-image: url("imagen/luzdelmundo.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+}
+.row-contacto{
+	padding-top: 25px;	
+}
+.form-group{
+	box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.44);
+	    margin-bottom: 15px;
 }
 
 
+.mapa-contacto{
+	padding-left: 50px;
+	box-shadow: 51px 9px 12px 0px rgba(0, 0, 0, 0.44);
+	height: 300px;
+    width: 505px;
 
+}
 
+.btn-lg {
+    color: #fff;
+    background-color: #009688;
+    border-color: #009688;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 20px 40px;
+    box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.44);
+}
 
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #f90a0a;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
 
+/* --- Footer --- */
+.bg-footer{
+	background-color:#00796b;
+	height: 300px;
+	width: 100%;
+	padding-top: 25px;
+	color: white;
+}
+.border-left {
+    border-left: 1px solid #f2f2f2;
 
-
-
-
-
-
-
-
+}
+.nombre-footer{
+	color:#004d40;
+}
+.fa-stack-1x, .fa-stack-2x {
+    position: absolute;
+    left: -73px;
+    width: 100%;
+    text-align: center;
+}
+.fa-inverse {
+    color: #fff;
+    top: 43px;
+}
 
 
 
