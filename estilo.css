@@ -113,8 +113,8 @@ header.container{
 header:hover{
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    -webkit-animation: immortalkenburns 20000ms linear 0s infinite alternate;
-    animation: immortalkenburns 20000ms linear 0s infinite alternate;
+    -webkit-animation: immortalkenburns 20000ms linear 1s infinite alternate;
+    animation: immortalkenburns 20000ms linear 1s infinite alternate;
 
 }
 
